@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ $# -ne 2]; then	#引数の判定
+if [ $# -ne 2 ]; then	#引数の判定
 	echo "input 2 argments" 1>&2
 	exit 1
 fi
